@@ -1,9 +1,8 @@
-import pickle
+
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from dotenv import load_dotenv
 from langchain_community.vectorstores import FAISS
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
 
 load_dotenv()
 from langchain_community.document_loaders import UnstructuredURLLoader

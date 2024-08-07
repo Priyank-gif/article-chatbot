@@ -1,7 +1,4 @@
 
-import pickle
-
-import langchain
 import numpy as np
 from dotenv import load_dotenv
 from langchain.chains.qa_with_sources.retrieval import RetrievalQAWithSourcesChain
@@ -9,7 +6,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
 from transformers import pipeline
 load_dotenv()
-from faiss_index import urls, fetch_documents_from_url, split_documents
+
 
 
 # Load FAISS index from PKL
