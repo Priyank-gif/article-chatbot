@@ -1,0 +1,16 @@
+langchain
+faiss-cpu
+openai
+langchain-community
+unstructured
+libmagic
+python-magic
+python-magic-bin
+python-dotenv
+tiktoken
+transformers
+torchvision==0.17.0
+torchaudio==2.2.0
+sentence-transformers
+langchain-google-genai
+streamlit
